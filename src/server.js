@@ -34,6 +34,10 @@ export const startServer = () => {
     }),
   );
 
+  app.get('/', (req, res) => {
+    res.json({ message: 'Hello World!' });
+  });
+
   app.use('/uploads', express.static(UPLOAD_DIR));
   app.use('/api-docs', swaggerDocs());
 
