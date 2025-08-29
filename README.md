@@ -1,17 +1,36 @@
-Node.JS 2.0: Homework-MongoDB
-https://nodejs-hw-mongodb-qzaz.onrender.com/contacts
+NodeJs-MongoDB
 
-Node.JS 3.0: Homework-hw3-crud
-https://nodejs-hw-mongodb-1-4ll2.onrender.com
+The backend application is written using Nodejb, and MongoDB.
 
-Node.JS 4.0: Homework-hw4-validation
-https://nodejs-hw4-validation-wn01.onrender.com/contacts
+Implemented:
 
-Node.JS 5.0: Homework-hw5-auth
-https://nodejs-hw-mongodb-3-r1ha.onrender.com
+- a server was created to work with the contact collection via HTTP requests;
+- the ability to add new, delete and edit existing contacts;
+- pagination implemented;
+- sorting;
+- data filtering;
+- input data validation;
+- implemented user registration and authentication using password hashing with bcrypt;
+- sessions and tokens are used to ensure security;
+- middleware for user authentication is implemented;
+- cookies are used to store and transfer tokens;
+- access to data is restricted to users under certain conditions;
+- implemented functionality for resetting passwords using tokens;
+- used the Brevo service for sending messages by email;
+- integrated image upload using the Cloudinary service;
+- extended models and endpoints to support new functionalities;
+- created basic documentation settings in Swagger;
+- used the @redocly/cli package to generate documentation;
+- configured and organized API documentation;
+- added documentation for various API endpoints.
 
-Node.JS 6.0: Homework-hw6-email-and-images
-https://nodejs-hw-mongodb-6-0.onrender.com
+Tech Stack:
 
-Node.JS 7.0: Homework-hw7-swagger
-https://nodejs-hw-mongodb-7-s2kq.onrender.com
+- Nodejb,
+- MongoDB,
+- Сloudinary,
+- Swagger
+
+👤Author:
+
+Developed by Myroslava Havrylchuk Email: myroslavahavrylchuk@gmail.com GitHub: Myrosya-fsd
